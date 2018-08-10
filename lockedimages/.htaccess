@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule \.(gif|jpeg|jpg|png)$ /admin/watermark_wrapper.php [QSA,NC]

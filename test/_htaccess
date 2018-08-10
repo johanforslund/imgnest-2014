@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "test"
+AuthUserFile "/home2/imgnestc/.htpasswds/public_html/imgnest/test/passwd"
+require valid-user

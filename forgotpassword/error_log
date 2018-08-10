@@ -1,0 +1,4 @@
+[04-Mar-2014 16:15:37 America/Chicago] PHP Notice:  Undefined variable: messages in /home/imgnestc/public_html/forgotpassword/forgotpassword.html.php on line 34
+[04-Mar-2014 16:15:37 America/Chicago] PHP Notice:  Undefined variable: errors in /home/imgnestc/public_html/forgotpassword/forgotpassword.html.php on line 35
+[09-Mar-2014 11:56:42 America/Chicago] PHP Warning:  require_once(/home2/imgnestc/public_html/includes/login/index.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/imgnestc/public_html/forgotpassword/index.php on line 2
+[09-Mar-2014 11:56:42 America/Chicago] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home2/imgnestc/public_html/includes/login/index.php' (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/imgnestc/public_html/forgotpassword/index.php on line 2

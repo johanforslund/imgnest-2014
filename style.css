@@ -1,0 +1,1632 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: local("?"),
+		 url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, p, a, div, html, body
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+body, html
+{
+	background: #edfeff;
+	height: 100%;
+	
+}
+
+a, img
+{
+	border: none;
+	text-decoration: none;
+	color: inherit;
+}
+
+.ALL
+{
+	margin: 0 auto;
+	width: 1200px;
+	position: relative;
+	padding-bottom: 170px;
+}
+
+.header
+{
+	height: 170px;
+	width: 100%;
+	min-width: 1215px;
+	position: relative;
+	background-image: url('images/headerbg.jpg');
+	box-shadow: 1px 1px 5px #888888;
+	margin-bottom: 50px;
+}
+
+.desctext
+{
+	position: relative;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	margin-left: 10px;
+	top: -5px;
+	font-family: 'Pathway Gothic One';
+	font-size: 1.4em;
+	line-height: 40%;
+}
+
+.logo
+{
+	position: relative;
+	top: 10px;
+	margin-left: 30px;
+	background-image: url('images/logo.png');
+	width: 224px;
+	height: 144px;
+	z-index: 5;
+}
+
+.headerbuttons
+{
+	position: relative;
+	display: inline-block;
+	padding: 0;
+	width: 450px;
+	height: 55px;
+	margin-left: 10px;
+	top: -40px;
+}
+
+.or
+{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	position: relative;
+	left: 20px;
+	top: 5px;
+	font-family: 'BebasNeue';
+	font-size: 2.5em;
+	color: #edfeff;
+}
+
+.readmore
+{
+	width: 190px;
+	height: 55px;
+	border-radius: 5px;
+	background-image: url('images/buttonbg.png');
+	display: inline-block;
+	float: left;
+	box-shadow: 0px 2px 5px #888888;
+
+}
+
+.signup
+{
+	width: 190px;
+	height: 55px;
+	border-radius: 5px;
+	background-image: url('images/buttonbg.png');
+	display: inline-block;
+	float: right;
+	box-shadow: 0px 2px 5px #888888;
+}
+
+.buttontext
+{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	top: 12px;
+	color: #464646;
+	text-align: center;
+	font-family: 'BebasNeue';
+	font-size: 1.8em;
+}
+
+.catmenu
+{
+	position: relative;
+	width: 1200px;
+	height: 70px;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.browseedit
+{
+	position: relative;
+	display: inline-block;
+	width: 250px;
+	height: 70px;
+	
+}
+
+.cats
+{
+	position: relative;
+	display: inline-block;
+	width: 730px;
+	margin: 0;
+	height: 70px;
+	overflow: hidden;
+	left: 55px;
+}
+
+.cats a
+{
+	border: none;
+	text-decoration: none;
+	color: #464646;
+}
+
+.catstext
+{
+	position: relative;
+	font-family: 'BebasNeue';
+	font-size: 1.4em;
+	color: #464646;
+	top: 22px;
+	float: left;
+	margin-right: 55px;
+}
+
+.catstext:hover
+{
+	border-bottom: 2px solid #464646;
+}
+
+.uploadcontainer
+{
+	position: relative;
+	display: inline-block;
+	width: 130px;
+	margin: 0;
+	height: 70px;
+	left: 80px;
+	
+}
+
+.uploadbutton
+{
+	position: absolute;
+	display: inline-block;
+	width: 130px;
+	height: 45px;
+	background: #7ecbb0;
+	top: 10px;
+	border-radius: 5px;
+	
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#74b9a1), to(#82d2b7));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #74b9a1, #82d2b7);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #74b9a1, #82d2b7);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #74b9a1, #82d2b7);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #74b9a1, #82d2b7);
+	
+	box-shadow: 0px 1px 1px #888888;
+}
+
+.uploadbuttontext
+{
+	position: relative;
+	font-family: 'BebasNeue';
+	font-size: 1.3em;
+	color: #edfeff;
+	top: 12px;
+	left: 40px;
+	display: inline-block;
+}
+
+.image
+{
+	position: relative;
+	width: 215px;
+	height: 155px;
+	background-size: 215px 155px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-left: 11px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0px 2px 5px #888888;
+	overflow: hidden;
+}
+
+.imagescontainer
+{
+	position: relative;
+	margin: 0 auto;
+}
+
+.imagelabel
+{
+	position: absolute;
+	width: 100%;
+	height: 35px;
+	top: 100px;
+	background: rgba(225, 245, 240, 0.80);
+	text-align: left;
+	overflow: hidden;
+}
+
+.labeltext
+{
+	position: absolute;
+	top: 8px;
+	left: 10px;
+	font-family: 'BebasNeue';
+	font-size: 1.15em;
+	color: black;
+	text-shadow: 0px 0px 5px #edfeff;
+	line-height: 24px;
+	white-space: nowrap;
+	width: 205px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.stdheader
+{
+	position: relative;
+	color: #464646;
+	font-family: 'Pathway Gothic One';
+	font-size: 50px;
+	font-weight: normal;
+}
+
+.stdtext
+{
+	position: relative;
+	color: #464646;
+	font-family: 'Open Sans';
+}
+
+.lefttext
+{
+	width: 570px;
+	position: relative;
+	float: left;
+	margin-right: 30px;
+}
+
+.righttext
+{
+	width: 570px;
+	position: relative;
+	float: right;
+	margin-left: 30px;
+}
+
+.dottedmiddle
+{
+	position: absolute;
+	width: 6px;
+	height: 510px;
+	top: 100px;
+	left: 49.5%;
+	background-image: url('images/dotted.png');
+}
+
+.clear
+{
+	clear: both;
+}
+
+.dropbox
+{
+	width: 800px;
+	height: 450px;
+	position: relative;
+	background-image: url('images/dropdotted.png');
+	z-index: 30;
+}
+
+.leftofform
+{
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+	width: 800px;
+}
+
+.rightofform
+{
+	float: right;
+	margin-right: 5px;
+	width: 370px;
+}
+
+.leftofedited
+{
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 550px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.leftofedited h2
+{
+	position: relative;
+	font-family: 'Pathway Gothic One';
+	margin: 0;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.rightofedited
+{
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 550px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.rightofedited h2
+{
+	position: relative;
+	font-family: 'Pathway Gothic One';
+	margin: 0;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.form
+{
+	position: relative;
+	margin-left: 5px;
+}
+
+.drop
+{
+	position: relative;
+	width: 796px;
+	height: 442px;
+	top: 4px;
+	background-image: url('images/dropbg.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top center;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.drop input
+{
+	display: block;
+	width: 800px;
+	height: 450px;
+	opacity: 0;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.formtitle
+{
+	width: 390px;
+	height: 40px;
+	border: 1px solid #cdced0;
+	border-radius: 5px;
+	color: #b6b7c6;
+	padding-left: 10px;
+	font-family: 'Pathway Gothic One';
+	font-size: 25px;
+}
+
+.formdesc
+{
+	border: none;
+	width: 390px;
+	height: 290px;
+	border: 1px solid #cdced0;
+	border-radius: 3px;
+	color: #b6b7c6;
+	padding-left: 10px;
+	font-family: 'Pathway Gothic One';
+	font-size: 25px;
+	position: relative;
+	top: 10px;
+	
+}
+
+.formcat
+{
+	border: none;
+	width: 405px;
+	height: 40px;
+	border: 1px solid #cdced0;
+	border-radius: 3px;
+	color: #b6b7c6;
+	padding-left: 10px;
+	font-family: 'Pathway Gothic One';
+	font-size: 25px;
+	position: relative;
+	top: 15px;
+	margin-bottom: 20px;
+}
+
+.submitbutton
+{
+	position: relative;
+	width: 175px;
+	height: 40px;
+	background: red;
+	border: none;
+	left: 40px;
+	background: #7ecbb0;
+	border-radius: 5px;
+	
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#74b9a1), to(#82d2b7));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #74b9a1, #82d2b7);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #74b9a1, #82d2b7);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #74b9a1, #82d2b7);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #74b9a1, #82d2b7);
+	
+	box-shadow: 0px 1px 1px #888888;
+	
+	font-family: 'BebasNeue';
+	font-size: 1.3em;
+	color: #edfeff;
+}
+
+.submitbutton:hover
+{
+	cursor: pointer;
+}
+
+.amounttext
+{
+	position: relative;
+	color: #464646;
+	font-family: 'Open Sans';
+	top: 2px;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.formamount
+{
+	width: 39px;
+	height: 30px;
+	border: 1px solid #cdced0;
+	border-radius: 5px;
+	color: #b6b7c6;
+	font-family: 'Pathway Gothic One';
+	font-size: 25px;
+	text-align: center;
+	position: relative;
+	top: 5px;
+}
+
+.imageview
+{
+	width: 800px;
+	height: 450px;
+	position: relative;
+	background-size: 800px 450px;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	
+}
+
+.editedimageview
+{
+	width: 550px;
+	height: 450px;
+	position: relative;
+	background-size: 800px 450px;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+}
+
+.imageinfo
+{
+	border-left: 1px solid #bbc5c6;
+	padding-left: 20px;
+	width: 347px;
+	word-wrap: break-word;
+}
+
+.repliestext
+{
+	font-family: 'Pathway Gothic One';
+	font-weight: normal;
+	font-size: 1.8em;
+}
+
+
+
+.userinfo
+{
+	position: relative;
+	display: inline;
+	font-family: 'Pathway Gothic One';
+	color: #464646;
+	
+	text-decoration: underline;
+}
+
+.userinfo:hover
+{
+	text-decoration: none;
+}
+
+.dateinfo
+{
+	position: relative;
+	display: inline;
+	color: #464646;
+	font-family: 'Pathway Gothic One';
+	margin-right: 15px;
+}
+
+.categoryinfo
+{
+	display: inline;
+	color: #464646;
+	font-family: 'Pathway Gothic One';
+	margin-right: 15px;
+}
+
+.removeinfo
+{
+	display: inline;
+	color: #464646;
+	font-family: 'Pathway Gothic One';
+	margin-right: 15px;
+	color: red;
+}
+
+.removeinfo:hover
+{
+	cursor: pointer;
+}
+
+.downloadsubmit
+{
+	position: relative;
+	left: 175px;
+	width: 450px;
+	height: 150px;
+}
+
+.downloadsubmitbutton
+{
+	width: 210px;
+	height: 50px;
+	background: yellow;
+	display: inline-block;
+	float: left;	
+	background: #7ecbb0;
+	border-radius: 5px;
+	
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#74b9a1), to(#82d2b7));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #74b9a1, #82d2b7);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #74b9a1, #82d2b7);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #74b9a1, #82d2b7);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #74b9a1, #82d2b7);
+	
+	box-shadow: 0px 1px 1px #888888;
+}
+
+.downloadsubmitbuttontext
+{
+	position: relative;
+	font-family: 'BebasNeue';
+	font-size: 1.3em;
+	color: #edfeff;
+	top: 14px;
+	left: 70px;
+	display: inline-block;
+}
+
+.editinfo
+{
+	width: 450px;
+	height: 70px;
+	background-image: url('/images/editinfo.png');
+}
+
+ul.pagination
+{
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+	font-size: 12px;
+	font-family: 'Tahoma';
+	list-style-type: none;
+}
+
+ul.pagination li
+{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 5px;
+	cursor: default;
+}
+
+ul.pagination li a
+{
+	color: black;
+	display: block;
+	text-decoration: none;
+	padding: 7px 10px 7px 10px;
+}
+	
+ul.pagination li a
+{
+	color: #333333;
+	text-shadow: 0px 1px #F6F6F6;
+	padding: 6px 9px 6px 9px;
+	border: solid 1px #B6B6B6;
+	box-shadow: 0px 1px #EFEFEF;
+	-moz-box-shadow: 0px 1px #EFEFEF;
+	-webkit-box-shadow: 0px 1px #EFEFEF;
+	background: #E6E6E6;
+}
+
+ul.pagination li a:hover, ul.pagination li a.current
+{	
+	color: #FFFFFF;
+	box-shadow: 0px 1px #E7E7E7;
+	-moz-box-shadow: 0px 1px #E7E7E7;
+	-webkit-box-shadow: 0px 1px #E7E7E7;       
+	text-shadow: 0px 1px #4E802C;
+	border-color: #478223;
+	background: #77988d;
+}
+
+.useractioncontainer
+{
+	position:absolute; 
+	right: 0;
+}
+
+.useraction
+{
+	position:relative;
+	height: 25px;
+	background: #77988d;
+	padding-left: 15px;
+	padding-right: 15px;
+	cursor: pointer;
+	float: left;
+	color: #edfeff;
+}
+
+.useraction:hover
+{
+	color: #fdeac5;
+}
+
+.unreadmessages
+{
+	position: relative;
+	height: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+	top: 3px;
+}
+
+.unreadtext
+{
+	position: relative;
+	font-family: 'Pathway Gothic One';
+	color: #edfeff;
+	display: inline-block;
+	left: -4px;
+	top: -10px;
+}
+
+.unreadnumbertext0
+{
+	position: relative;
+	font-family: 'Pathway Gothic One';
+	color: #edfeff;
+	display: inline-block;
+	left: -4px;
+	font-weight: bold; 
+	top: -7px; 
+	font-size: 1.5em;
+}
+
+.unreadnumbertext
+{
+	position: relative;
+	font-family: 'Pathway Gothic One';
+	color: #fdeac5;
+	display: inline-block;
+	left: -4px;
+	font-weight: bold; 
+	top: -7px; 
+	font-size: 1.5em;
+}
+
+.unreadicon
+{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	top: -3px;
+	left: 5px;
+}
+
+.arrow_down
+{
+	position: relative;
+	width: 15px;
+	height: 15px;
+	top: 6px;
+	left: -10px;
+}
+
+.logintext
+{
+	font-family: 'BebasNeue';
+	color: inherit;
+	font-size: 1em;
+	letter-spacing: 1px;
+	position: relative;
+	top: 3px;
+	left: 1px;
+	
+	/*Makes the text unselectable, to avoid the text getting blue when pressing LOGIN*/
+	user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.usernametext
+{
+	font-family: 'Pathway Gothic One';
+	color: inherit;
+	letter-spacing: 0.5px;
+	position: relative;
+	top: 3px;
+	left: -9px;
+	display: inline-block;
+	
+	/*Makes the text unselectable, to avoid the text getting blue when pressing LOGIN*/
+	user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.submenu
+{	
+    display: none;
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	height: 145px;
+    top: 25px;
+	background: #77988d;
+	border-top-left-radius: 10px;
+	z-index: 5;
+}
+
+.logininput
+{
+	position:relative; 
+	padding-left: 5px; 
+	border: 1px solid gray; 
+	margin-top: 5px; 
+	width: 250px; 
+	height: 30px;
+	border-radius: 3px;
+}
+
+.loginsubmit
+{
+	position:relative; 
+	margin-top: 5px; 
+	width: 256px; 
+	height: 40px; 
+	background: #edfeff;
+	border-radius: 3px;
+	font-family: 'BebasNeue';
+	font-weight: normal;
+	font-size: 25px;
+	color: #464646;
+	border: none;
+}
+
+.loginsubmit:hover
+{
+	cursor: pointer;
+}
+
+.keepmeloggedin
+{
+	position: relative;
+	color: #edfeff;
+	font-family: 'Pathway Gothic One';
+	left: -5px;
+	top: 1px;
+	margin-right: 45px;
+}
+
+#user_rememberme
+{
+	position: relative;
+	left: -3px;
+	top: 2px;
+}
+
+.forgotpw
+{
+	color: #edfeff;
+	font-family: 'Pathway Gothic One';
+}
+
+.loginform
+{
+	width: 250px; 
+	position: relative; 
+	margin: 0 auto;
+}
+
+.dropdownpanel
+{
+	position: absolute;
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	list-style-position: inside;
+	list-style-type: none;
+	width: 300px;
+	bottom: 0;
+}
+
+.dropdownpanelbutton
+{
+	width: 270px; 
+	margin-left: 0;
+	padding-left: 30px;
+	border-top: 1px solid #96aea6;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Pathway Gothic One';
+	color: #edfeff;
+}
+
+.logoutbutton
+{
+	position:relative; 
+	margin-top: 10px; 
+	width: 256px; 
+	height: 40px; 
+	background: #edfeff;
+	border-radius: 3px;
+	font-family: 'BebasNeue';
+	font-weight: normal;
+	font-size: 25px;
+	color: #464646;
+	border: none;
+	text-align: center;
+}
+
+.settingsprofileicon
+{
+	position: relative;
+	width: 15px;
+	height: 15px;
+	top: 2px;
+	left: -2px;
+}
+
+.submitmessage
+{
+	border: none;
+	width: 390px;
+	height: 390px;
+	border: 1px solid #cdced0;
+	border-radius: 3px;
+	color: #b6b7c6;
+	font-family: 'Pathway Gothic One';
+	font-size: 25px;
+	position: relative;
+}
+
+.messagebox	/*Tabellen där lagtruppen står */
+{
+	font-size:17px;
+	color:#333333;
+	width:100%;
+	border: 1px solid #729ea5;
+	border-collapse: collapse;
+	font-family: 'Pathway Gothic One';
+	background: #FFFFFF;
+}
+
+.messagebox th	/*"Huvudet" för tabellen */
+{
+	
+	background-color:#77988d;
+	border-width: 1px solid #729ea5;
+	padding: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align:left;	/*Positionera texten till vänster */
+	font-weight: normal;
+}
+
+.messagebox td	/*Cellerna */
+{
+	padding: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom: 1px solid #729ea5;
+}
+
+.messages a
+{
+	color: inherit;
+}
+
+.urmessages a
+{
+	color: inherit;
+}
+
+.urmessages a:hover
+{
+	color: #fdeac5;
+}
+
+.messages a:hover
+{
+	color: #fdeac5;
+}
+
+.messages:hover
+{
+	background: #333333;
+	color: white;
+	cursor: pointer;
+}
+
+.urmessages
+{
+	background: #fdeac5;
+}
+
+.urmessages:hover
+{
+	background: #333333;
+	color: white;
+	cursor: pointer;
+}
+
+.messageoutput
+{
+	background: #FFFFFF;
+	border: 1px solid #729ea5;
+	border-top: none;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	
+}
+
+.messageoutput h1
+{
+	position: relative;
+	font-family: 'Pathway Gothic One';
+	font-weight: normal;
+	font-size: 50px;
+	color: #333333;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-right: 0;
+	text-decoration: underline;
+}
+
+.messageoutput p
+{
+	position: relative;
+	color: #464646;
+	font-family: 'Open Sans';
+	padding-top: 10px;
+	
+}
+
+.messageoutput a
+{
+	text-decoration: underline;
+}
+
+.messageoutput a:hover
+{
+	text-decoration: none;
+}
+
+.messageoutput em
+{
+	position: relative;
+	left: 15px;
+}
+
+.footer
+{
+	position: relative;
+	height: 120px;
+	background: #77988d;
+	margin-top: -120px;
+	min-width: 1215px;
+}
+
+.footerwrap
+{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.wrap
+{
+	min-height: 100%;
+}
+
+.footer1
+{
+	display: inline-block;
+	position: relative;
+	width: 400px;
+	height: 120px;
+	
+	float: left;
+}
+
+.footer2
+{
+	display: inline-block;
+	position: relative;
+	width: 400px;
+	height: 120px;
+	float: left;
+	text-align: center;
+}
+
+.footer3
+{
+	display: inline-block;
+	position: relative;
+	width: 400px;
+	height: 120px;
+	float: left;
+	text-align: right;
+}
+
+.footer1 img
+{
+	position: relative;
+	top: 44px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.footer2text
+{
+	position: relative;
+	display: inline;
+	font-family: 'BebasNeue';
+	color: #edfeff;
+	top: 30px;
+	margin-top: 5px;
+	font-size: 1.1em;
+}
+
+.footer2text:hover
+{
+	color: #fdeac5;
+	cursor: pointer;
+}
+
+.copyrighttext
+{
+	position: relative;
+	font-family: 'Pathway Gothic One';
+	top: 50px;
+	color: #edfeff;
+}
+
+.newsletter
+{
+	position: relative;
+	top: 40px;
+	width: 180px;
+	height: 30px;
+	font-family: 'BebasNeue';
+	font-size: 1.15em;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 1px solid #cdced0;
+	color: #b6b7c6;
+}
+
+.newslettersubmit
+{
+	position: relative;
+	font-family: 'BebasNeue';
+	font-size: 16px;
+	top: 41px;
+	color: #edfeff;
+	left: -20px;
+	background: none;
+	border: none;
+}
+
+.newslettersubmit:hover
+{
+	cursor: pointer;
+	color: #fdeac5;
+}
+
+.footericon
+{
+	position: relative;
+	top: 41px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 37px;
+	color: #edfeff;
+}
+
+.footericon:hover
+{
+	color: #fdeac5;
+	cursor: pointer;
+}
+
+.registerinput
+{
+	width: 390px;
+	height: 45px;
+	border: 1px solid #cdced0;
+	border-radius: 3px;
+	color: #b6b7c6;
+	padding-left: 25px;
+	font-family: 'Pathway Gothic One';
+	font-size: 15px;
+	margin-top: 10px;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+.registerform
+{
+	width: 415px;
+	margin: 0 auto;
+}
+
+.registerbutton
+{
+	position: relative;
+	width: 200px;
+	height: 40px;
+	top: 25px;
+	background: red;
+	border: none;
+	left: 100px;
+	background: #7ecbb0;
+	border-radius: 5px;
+	
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#74b9a1), to(#82d2b7));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #74b9a1, #82d2b7);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #74b9a1, #82d2b7);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #74b9a1, #82d2b7);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #74b9a1, #82d2b7);
+	
+	box-shadow: 0px 1px 1px #888888;
+	
+	font-family: 'BebasNeue';
+	font-size: 1.3em;
+	color: #edfeff;
+}
+
+.registerbutton:hover
+{
+	cursor: pointer;
+}
+
+.signuperror
+{
+	text-align: center;
+	font-family: 'Pathway Gothic One';
+	color: #d53030;
+	font-size: 18px;
+}
+
+.readmoreleft1
+{
+	width: 500px;
+	height: 150px;
+}
+
+.readmoreleft2
+{
+	width: 500px;
+	margin-top: 20px;
+	height: 150px;
+}
+
+.readmoreleft3
+{
+	width: 500px;
+	margin-top: 20px;
+	height: 150px;
+}
+
+.readmoreright1
+{
+	width: 500px;
+	height: 150px;
+	float: right;
+}
+
+.readmoreright2
+{
+	width: 500px;
+	height: 150px;
+	background: url('images/readmoreright2.png');
+	margin-top: 20px;
+	float: right;
+}
+
+.readmoreright3
+{
+	width: 500px;
+	height: 150px;
+	background: url('images/readmoreright3.png');
+	margin-top: 20px;
+	float: right;
+}
+
+.bigusericon
+{
+	position: relative;
+	color: #464646;
+	font-size: 45px;
+	margin-right: 10px;
+	top: -3px;
+}
+
+.memberfor
+{
+	display: inline-block;
+	font-family: 'Pathway Gothic One';
+	color: #464646;
+	font-size: 18px;
+	position: relative;
+	left: 10px;
+}
+
+.profilelikes
+{
+	display: inline-block;
+	font-size: 40px;
+	font-family: 'BebasNeue';
+	color: #dc4343;
+	margin-left: 10px;
+}
+
+.profilecaption
+{
+	font-family: 'BebasNeue';
+	color: #464646;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.settingswrap
+{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.settingsbar
+{
+	width: 100%;
+	height: 35px;
+	background: #77988d;
+	text-align: center;
+	font-family: 'BebasNeue';
+	color: #edfeff;
+	font-size: 22px;
+}
+
+.settingslink
+{
+	position: relative;
+	top: 6px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.settingholder
+{
+	display: inline-block;
+	height: 35px;
+	border-right: 1px solid #edfeff;
+}
+
+.settingslabel
+{
+	font-family: 'Pathway Gothic One';
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.footerterms:hover
+{
+	color: #fdeac5;
+}
+
+.privacy
+{
+	color: #464646;
+}
+
+.privacy h2
+{
+	color: #77988d;
+	font-weight: normal;
+}
+
+.likewrap
+{
+	width: 110px;
+	height: 30px;
+	float: right;
+	text-align: left;
+}
+
+.likenumber
+{
+	display: inline-block;
+	font-family: 'BebasNeue';
+	color: #861717;
+	font-size: 28px;
+}
+
+.likebutton
+{
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	background: #861717;
+	float: right;
+	border-radius: 3px;
+	color: white;
+}
+
+.likebutton:hover
+{
+	color: #dc4343;
+	cursor: pointer;
+}
+
+.liketext
+{
+	font-family: 'BebasNeue';
+	color: inherit;
+	font-size: 20px;
+	position: relative;
+	top: 4px;
+	left: 10px;
+	display: inline-block;
+}
+
+.likeheart
+{
+	position: relative;
+	color: inherit;
+	float: right;
+	font-size: 20px;
+	top: 5px;
+	right: 10px;
+}
+
+.editcomment
+{
+	margin-top: 5px;
+	padding: 20px;
+	border: 1px solid #77988d;
+	border-radius: 7px;
+}
+
+.commentusername
+{
+	display: inline;
+	font-size: 30px;
+	text-decoration: underline;
+	color: #464646;
+	font-family: 'Pathway Gothic One';
+	margin-top: 20px;
+}
+
+.commentbutton
+{
+	position: relative;
+	width: 200px;
+	height: 40px;
+	background: red;
+	border: none;
+	float: right;
+	background: #7ecbb0;
+	border-radius: 5px;
+	
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#74b9a1), to(#82d2b7));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #74b9a1, #82d2b7);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #74b9a1, #82d2b7);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #74b9a1, #82d2b7);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #74b9a1, #82d2b7);
+	
+	box-shadow: 0px 1px 1px #888888;
+	
+	font-family: 'BebasNeue';
+	font-size: 1.3em;
+	color: #edfeff;
+	margin-bottom: 30px;
+}
+
+.commentbutton:hover
+{
+	cursor: pointer;
+}
+
+.siteinformationwrap
+{
+	height: 180px;
+	background: #e1f5f0;
+	border-radius: 4px;
+	
+}
+
+.siteinformation1
+{
+	width: 389px;
+	height: 180px;
+	float: left;
+	font-family: 'Open Sans';
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #b6c4c1;
+	color: #464646;
+}
+
+.siteinformation2
+{
+	display: inline-block;
+	width: 389px;
+	height: 180px;
+	float: left;
+	font-family: 'Open Sans';
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #b6c4c1;
+	color: #464646;
+}
+
+.siteinformation3
+{
+	display: inline-block;
+	width: 189px;
+	height: 180px;
+	font-family: 'Pathway Gothic One';
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+	border-right: 1px solid #b6c4c1;
+	color: #464646;
+}
+
+.siteinformation4
+{
+	display: inline-block;
+	width: 190px;
+	height: 180px;
+	font-family: 'Pathway Gothic One';
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #464646;
+}
+
+.informationheader
+{
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	font-family: 'Pathway Gothic One';
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+.shares
+{
+	float: left;
+}
+
+.imageamount
+{
+	width: 35px;
+	height: 25px;
+	background: rgba(225, 245, 240, 0.80);
+	float: right;
+	position: relative;
+	border-bottom-left-radius: 5px;
+	text-align: center;
+}
+
+.imageamount p
+{
+	font-family: 'BebasNeue';
+	position: relative;
+	top: 5px;
+	
+}
+
+.unlocktext
+{
+	text-decoration: underline;
+	font-size: 16px;
+}
